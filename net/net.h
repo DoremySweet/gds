@@ -3,7 +3,7 @@
 #include<string>
 #include<stdexcept>
 #include<array>
-#include"token.h"
+#include"parse/token.h"
 
 namespace net {
 
