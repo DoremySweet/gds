@@ -4,7 +4,7 @@
 #include<stdexcept>
 #include<array>
 #include<vector>
-#include"../parse/token.h"
+#include"parse/token.h"
 
 namespace net {
 

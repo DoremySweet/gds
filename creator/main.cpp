@@ -1,7 +1,7 @@
 #include <iostream>
 #include<filesystem>
 #include<type_traits>
-#include"../net/net.h"
+#include"net/net.h"
 
 
 int main(int argc, char* args[])

@@ -1,11 +1,10 @@
 obj = main.o
 
-gds :$(obj)
-	echo "hello"
+creator :$(obj)
+	g++ ./release/main.o -o ./release/creator.out
 
 main.o : 
-	g++ -std=c++17 -c creator/main.cpp -o release/main.o
+	g++ -I ./ -std=c++17 -c ./creator/main.cpp -o ./release/main.o
 
 clean :
-	rm release/*.ogit status
-	
+	rm ./release/*.o
